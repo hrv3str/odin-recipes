@@ -1,0 +1,1 @@
+In this project I'm trying to mock recipe site to practice some HTML and commiting skills, given by the Odin circulum. Also I want to give it some ukrainian vibes touch.
