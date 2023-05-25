@@ -15,14 +15,14 @@ body {
 }
 
 .rec-list {
-    font-size: 32px;
+    font-size: 30px;
 }
 
 #content-wrap {
     display: block;
     margin: 0 auto;
     width: 60vw;
-    border: 5px solid #535353;
+    border: 3px solid black;
     border-top: none;
     border-bottom: none;
     padding: 0.5vw;
@@ -36,13 +36,40 @@ h1 {
 width: 20vw;
 margin: 0 auto;
 border-radius: 2vw;
-color: aliceblue;
-background-color: #535353;
+border: 3px solid black;
 }
 
 #odin-logo {
     display: inline;
     width: 2vw;
     height: auto;
+    vertical-align: middle; 
+}
+
+.list-item {
+    display: inline-block;
+    padding: 7px;
+    margin-bottom: 5px;
+    width: fit-content;
+    height: auto;
+    border-radius: 1.5vw;
+    border: 3px solid black;
     vertical-align: middle;
+    text-decoration: none;
+    color: black;
+}
+
+.li-img {
+width: 2.5vw;
+height: 2.5vw;
+border-radius: 1.5vw;
+display: inline;
+border: 1px solid black;
+vertical-align: middle;
+margin-right: 0.25em;
+}
+
+.list-item:hover {
+    color: white;
+    background-color: rgb(243, 47, 47);
 }
