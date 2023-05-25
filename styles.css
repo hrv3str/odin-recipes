@@ -17,3 +17,32 @@ body {
 .rec-list {
     font-size: 32px;
 }
+
+#content-wrap {
+    display: block;
+    margin: 0 auto;
+    width: 60vw;
+    border: 5px solid #535353;
+    border-top: none;
+    border-bottom: none;
+    padding: 0.5vw;
+}
+
+body {
+    padding: 0;
+}
+
+h1 {
+width: 20vw;
+margin: 0 auto;
+border-radius: 2vw;
+color: aliceblue;
+background-color: #535353;
+}
+
+#odin-logo {
+    display: inline;
+    width: 2vw;
+    height: auto;
+    vertical-align: middle;
+}
