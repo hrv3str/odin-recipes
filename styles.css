@@ -97,8 +97,10 @@ margin-right: 0.25em;
 }
 
 @media (max-width: 500px) {
-    #content-wrap {
-        width: 100%;
+    .content-wrap {
+        width: 100vw;
         border: none;
+        margin: none;
+        padding: auto;
     }
 }
