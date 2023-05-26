@@ -6,10 +6,6 @@ img {
     margin: 0 auto;
 }
 
-h1, h2 {
-    text-align: center;
-}
-
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -37,6 +33,7 @@ width: 20vw;
 margin: 0 auto;
 border-radius: 2vw;
 border: 3px solid black;
+text-align: center;
 }
 
 #odin-logo {
@@ -52,7 +49,7 @@ border: 3px solid black;
     margin-bottom: 5px;
     width: fit-content;
     height: auto;
-    border-radius: 1.5vw;
+    border-radius: 30px;
     border: 3px solid black;
     vertical-align: middle;
     text-decoration: none;
@@ -60,9 +57,9 @@ border: 3px solid black;
 }
 
 .li-img {
-width: 2.5vw;
-height: 2.5vw;
-border-radius: 1.5vw;
+width: 48px;
+height: 48px;
+border-radius: 50%;
 display: inline;
 border: 1px solid black;
 vertical-align: middle;
@@ -71,5 +68,12 @@ margin-right: 0.25em;
 
 .list-item:hover {
     color: white;
-    background-color: rgb(243, 47, 47);
+    background-color: rgba(243, 47, 47, 0.534);
+}
+
+#intro {
+    text-align: center;
+    width: 40vw;
+    display: block;
+    margin: 0 auto;
 }
