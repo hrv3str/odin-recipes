@@ -96,7 +96,7 @@ margin-right: 0.25em;
     margin-top: 20px;
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     .content-wrap {
         width: 100vw;
         border: none;
